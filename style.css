@@ -1,3 +1,8 @@
+body {
+    background-image: url("https://img.wallpapersafari.com/desktop/1600/900/57/37/bPW5Go.jpg");
+    max-width: 1200px;
+}
+
 .navbarCont {
     display: flex;
     justify-content: space-around;
@@ -191,6 +196,7 @@
     width: 250px;
     height: 200px;
     background-color: bisque;
+    margin: 25px;
 }
 
 #innerTextField {
@@ -209,21 +215,42 @@
 }
 
 .lockBtnOpen {
-    position: absolute;
-    top: 240px;
-    left: 20px;
+    position: relative;
+    top: 112px;
+    left: 10px;
+    
 }
 
 #lockBtn {
     position: absolute;
-    top: 240px;
-    left: 225px;
+    top: 263px;
+    left: 245px;
 }
 
 .taskDoneDiv button {
     background-color: red;
     border-radius: 5px;
     padding: 3px;
+    margin: 3px;
     width: 28px;
     /* height: 23px; */
+}
+
+.mainCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    width: 1000px;
+}
+
+.colorHead {
+    height: 20px;
+    /* background-color: red; */
+    border-radius: 10px;
+    margin-top: 1px;
+}
+
+#changeColor {
+    /* padding: 10px; */
+    height: 22px;
 }
